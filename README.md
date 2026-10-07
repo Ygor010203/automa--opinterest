@@ -17,3 +17,13 @@ Script em Python desenvolvido para converter o arquivo de produtos (`produtos.cs
 2. Executa o script no terminal:
    ```bash
    py gerar_feed_pinterest.py
+
+   O arquivo feed_pinterest.csv será gerado automaticamente.
+
+⚠️ Importante antes de importar no Pinterest
+Crie o Board manualmente: Antes de subir o CSV em pinterest.com/pin-builder, crie o quadro (board) manualmente no Pinterest com o nome exato configurado na variável NOME_DO_QUADRO dentro do script (por padrão: "Achadinhos Mercado Livre BH"). O Pinterest costuma falhar se tentar criar o quadro direto via importação em massa.
+
+
+---
+
+Podes copiar este texto, criar um ficheiro chamado `README.md` na raiz da tua pasta `automacaopinter
